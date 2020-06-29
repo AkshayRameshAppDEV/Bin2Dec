@@ -13,6 +13,7 @@
 		B9BF113524A848DD0037DCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF113324A848DD0037DCAC /* Main.storyboard */; };
 		B9BF113724A848DE0037DCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BF113624A848DE0037DCAC /* Assets.xcassets */; };
 		B9BF113A24A848DE0037DCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF113824A848DE0037DCAC /* LaunchScreen.storyboard */; };
+		B9BF114524A9532A0037DCAC /* BinaryToDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B9BF113624A848DE0037DCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9BF113924A848DE0037DCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9BF113B24A848DE0037DCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryToDecimal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		B9BF112C24A848DD0037DCAC /* Bin2Dec */ = {
 			isa = PBXGroup;
 			children = (
-				B9BF112D24A848DD0037DCAC /* AppDelegate.swift */,
-				B9BF112F24A848DD0037DCAC /* SceneDelegate.swift */,
-				B9BF113124A848DD0037DCAC /* ViewController.swift */,
-				B9BF113324A848DD0037DCAC /* Main.storyboard */,
-				B9BF113624A848DE0037DCAC /* Assets.xcassets */,
-				B9BF113824A848DE0037DCAC /* LaunchScreen.storyboard */,
+				B9BF114324A952CE0037DCAC /* Supporting Files */,
+				B9BF114224A952C10037DCAC /* Controller */,
+				B9BF114124A952B30037DCAC /* View */,
 				B9BF113B24A848DE0037DCAC /* Info.plist */,
+				B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */,
 			);
 			path = Bin2Dec;
+			sourceTree = "<group>";
+		};
+		B9BF114124A952B30037DCAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF113824A848DE0037DCAC /* LaunchScreen.storyboard */,
+				B9BF113324A848DD0037DCAC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9BF114224A952C10037DCAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF113124A848DD0037DCAC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9BF114324A952CE0037DCAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF113624A848DE0037DCAC /* Assets.xcassets */,
+				B9BF112D24A848DD0037DCAC /* AppDelegate.swift */,
+				B9BF112F24A848DD0037DCAC /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				B9BF113224A848DD0037DCAC /* ViewController.swift in Sources */,
 				B9BF112E24A848DD0037DCAC /* AppDelegate.swift in Sources */,
 				B9BF113024A848DD0037DCAC /* SceneDelegate.swift in Sources */,
+				B9BF114524A9532A0037DCAC /* BinaryToDecimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

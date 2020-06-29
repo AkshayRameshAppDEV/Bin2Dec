@@ -14,7 +14,18 @@
 		B9BF113724A848DE0037DCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BF113624A848DE0037DCAC /* Assets.xcassets */; };
 		B9BF113A24A848DE0037DCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF113824A848DE0037DCAC /* LaunchScreen.storyboard */; };
 		B9BF114524A9532A0037DCAC /* BinaryToDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */; };
+		B9BF114D24A987BB0037DCAC /* Bin2DecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF114C24A987BB0037DCAC /* Bin2DecTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9BF114F24A987BB0037DCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BF112224A848DD0037DCAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BF112924A848DD0037DCAC;
+			remoteInfo = Bin2Dec;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B9BF112A24A848DD0037DCAC /* Bin2Dec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bin2Dec.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		B9BF113924A848DE0037DCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9BF113B24A848DE0037DCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryToDecimal.swift; sourceTree = "<group>"; };
+		B9BF114A24A987BB0037DCAC /* Bin2DecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bin2DecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BF114C24A987BB0037DCAC /* Bin2DecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bin2DecTests.swift; sourceTree = "<group>"; };
+		B9BF114E24A987BB0037DCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B9BF112724A848DD0037DCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BF114724A987BB0037DCAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				B9BF112C24A848DD0037DCAC /* Bin2Dec */,
+				B9BF114B24A987BB0037DCAC /* Bin2DecTests */,
 				B9BF112B24A848DD0037DCAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				B9BF112A24A848DD0037DCAC /* Bin2Dec.app */,
+				B9BF114A24A987BB0037DCAC /* Bin2DecTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +85,7 @@
 				B9BF114224A952C10037DCAC /* Controller */,
 				B9BF114124A952B30037DCAC /* View */,
 				B9BF113B24A848DE0037DCAC /* Info.plist */,
-				B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */,
+				B9BF115424A9A4FE0037DCAC /* Model */,
 			);
 			path = Bin2Dec;
 			sourceTree = "<group>";
@@ -94,6 +117,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B9BF114B24A987BB0037DCAC /* Bin2DecTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF114C24A987BB0037DCAC /* Bin2DecTests.swift */,
+				B9BF114E24A987BB0037DCAC /* Info.plist */,
+			);
+			path = Bin2DecTests;
+			sourceTree = "<group>";
+		};
+		B9BF115424A9A4FE0037DCAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF114424A9532A0037DCAC /* BinaryToDecimal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,6 +154,24 @@
 			productReference = B9BF112A24A848DD0037DCAC /* Bin2Dec.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B9BF114924A987BB0037DCAC /* Bin2DecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BF115124A987BB0037DCAC /* Build configuration list for PBXNativeTarget "Bin2DecTests" */;
+			buildPhases = (
+				B9BF114624A987BB0037DCAC /* Sources */,
+				B9BF114724A987BB0037DCAC /* Frameworks */,
+				B9BF114824A987BB0037DCAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BF115024A987BB0037DCAC /* PBXTargetDependency */,
+			);
+			name = Bin2DecTests;
+			productName = Bin2DecTests;
+			productReference = B9BF114A24A987BB0037DCAC /* Bin2DecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,6 +184,10 @@
 				TargetAttributes = {
 					B9BF112924A848DD0037DCAC = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					B9BF114924A987BB0037DCAC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B9BF112924A848DD0037DCAC;
 					};
 				};
 			};
@@ -143,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				B9BF112924A848DD0037DCAC /* Bin2Dec */,
+				B9BF114924A987BB0037DCAC /* Bin2DecTests */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +218,13 @@
 				B9BF113A24A848DE0037DCAC /* LaunchScreen.storyboard in Resources */,
 				B9BF113724A848DE0037DCAC /* Assets.xcassets in Resources */,
 				B9BF113524A848DD0037DCAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BF114824A987BB0037DCAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +242,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9BF114624A987BB0037DCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF114D24A987BB0037DCAC /* Bin2DecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9BF115024A987BB0037DCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BF112924A848DD0037DCAC /* Bin2Dec */;
+			targetProxy = B9BF114F24A987BB0037DCAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B9BF113324A848DD0037DCAC /* Main.storyboard */ = {
@@ -344,6 +430,46 @@
 			};
 			name = Release;
 		};
+		B9BF115224A987BB0037DCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94WH9ZZCLU;
+				INFOPLIST_FILE = Bin2DecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramesh.akshay.Bin2DecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bin2Dec.app/Bin2Dec";
+			};
+			name = Debug;
+		};
+		B9BF115324A987BB0037DCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94WH9ZZCLU;
+				INFOPLIST_FILE = Bin2DecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramesh.akshay.Bin2DecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bin2Dec.app/Bin2Dec";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -361,6 +487,15 @@
 			buildConfigurations = (
 				B9BF113F24A848DE0037DCAC /* Debug */,
 				B9BF114024A848DE0037DCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BF115124A987BB0037DCAC /* Build configuration list for PBXNativeTarget "Bin2DecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BF115224A987BB0037DCAC /* Debug */,
+				B9BF115324A987BB0037DCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

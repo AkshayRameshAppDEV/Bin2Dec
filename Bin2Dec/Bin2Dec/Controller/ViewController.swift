@@ -32,7 +32,6 @@ class ViewController: UIViewController {
         } else {
             decimalTextField.text = emptyStringPlaceholder
         }
-        binaryTextField.text = ""
     }
 }
 

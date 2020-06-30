@@ -6,4 +6,4 @@ An iOS app which takes the user input as binary format (**consisting of 0's and 
 
 # Screenshot of the Application
 
-<img src="https://github.com/AkshayRameshAppDEV/Bin2Dec/blob/master/application-screenshot.png" alt="Bin2Dec Application Running" width="250" height="250">
+<img src="https://github.com/AkshayRameshAppDEV/Bin2Dec/blob/master/application-screenshot.png" alt="Bin2Dec Application Running" width="500" height="500">

@@ -4,6 +4,6 @@ An iOS app which takes the user input as binary format (**consisting of 0's and 
 
 **Language Used:** Swift 5
 
-# Screenshot of the Application
+# Video of the Application
 
-<img src="https://github.com/AkshayRameshAppDEV/Bin2Dec/blob/master/application-screenshot.png" alt="Bin2Dec Application Running" width="250" height="500">
+<img src="https://github.com/AkshayRameshAppDEV/Bin2Dec/blob/master/ezgif.com-video-to-gif.gif" alt="Bin2Dec Application Running" width="250" height="500">

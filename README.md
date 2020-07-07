@@ -4,7 +4,11 @@ An iOS app which takes the user input as binary format (**consisting of 0's and 
 
 **Language Used:** Swift 5
 
-**Highlights:** UIKit, Auto Layout, Unit Testing, MVC
+**Highlights:** 
+  1. UIKit 
+  2. Auto Layout - Constraints 
+  3. Unit Testing 
+  4. MVC
 
 # Video of the Application
 
